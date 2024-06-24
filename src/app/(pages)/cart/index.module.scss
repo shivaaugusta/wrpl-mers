@@ -1,5 +1,7 @@
-@use '../../_css/common.scss' as *;
+@import '../../_css/common';
 
-.message {
-  margin-bottom: calc(var(--base) * 1.5);
+.removeFromCartButton {
+  all: unset;
+  cursor: pointer;
+  @extend %label;
 }

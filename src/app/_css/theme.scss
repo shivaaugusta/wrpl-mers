@@ -1,3 +1,4 @@
+/* Aturan tema terang */
 [data-theme=light] {
   --theme-success-50: var(--color-success-50);
   --theme-success-100: var(--color-success-100);
@@ -117,6 +118,7 @@
   }
 }
 
+/* Aturan tema gelap */
 [data-theme=dark] {
   --theme-elevation-0: var(--color-base-1000);
   --theme-elevation-50: var(--color-base-950);
@@ -235,3 +237,4 @@
     }
   }
 }
+
